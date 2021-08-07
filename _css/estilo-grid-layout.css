@@ -1,0 +1,79 @@
+.area_0 { grid-area: logomarca }
+
+.area_1 { grid-area: cabecalho; }
+
+.area_2 { grid-area: busca; }
+
+.area_3 { grid-area: lateral-e; }
+
+.area_4 { grid-area: conteudo-1; }
+
+.area_5 { grid-area: conteudo-2; }
+
+.area_6 { grid-area: conteudo-3; }
+
+.area_7 { grid-area: conteudo-4; }
+
+.area_8 { grid-area: conteudo-5; }
+
+.area_9 { grid-area: conteudo-6; }
+
+.area_10 { grid-area: rodape; }
+
+.texto1 {color: rgb(24, 24, 104);
+        text-align: center;
+        font-size: larger;
+        
+}
+
+.grid-container {
+
+  display: grid;
+
+  grid-template-areas:
+
+    'logomarca cabecalho cabecalho cabecalho cabecalho'
+
+     'busca busca busca busca busca'
+
+     'lateral-e conteudo-1 conteudo-1 conteudo-2 conteudo-2'
+
+     'lateral-e conteudo-3 conteudo-3 conteudo-4 conteudo-4'
+
+     'lateral-e conteudo-5 conteudo-5 conteudo-6 conteudo-6'
+
+    'rodape rodape rodape rodape rodape';
+
+  grid-gap: 5px;
+
+  background-color: rgb(255, 255, 255);
+
+  padding: 5px;
+
+  
+
+}
+
+ 
+
+.grid-container div {
+
+  background-color: rgb(202, 199, 199);
+
+  padding: 5px;
+
+  font-size: 15px;
+
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+
